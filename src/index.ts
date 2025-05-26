@@ -7,13 +7,23 @@ export * from './types';
 export * from './codes';
 
 // UBL document builders (helpers)
-export * from './ubl/helper/builder';
+export * from './auth';
+export * from './auth/types';
+export * from './documents';
+export * from './documents/types';
+export * from './taxpayer';
+export * from './taxpayer/types';
+export * from './ubl';
 
-// UBL document types (for manual construction)
-export * from './ubl/json/invoice';
+// export * from './ubl/helper/builder';
 
-// Digital signature helpers for UBL v1.1
-export * from './ubl/json/digitalSignature';
+// export * from './ubl/helper/params';
+
+// // UBL document types (for manual construction)
+// export * from './ubl/json/invoice';
+
+// // Digital signature helpers for UBL v1.1
+// export * from './ubl/json/digitalSignature';
 
 // Invoice calculation utilities
 export * from './utils/invoiceCalculations';
